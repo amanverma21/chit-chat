@@ -229,6 +229,7 @@ window.onload = function() {
         // localstorage themselves. But hacking sounds cooler!!
         if(parent.get_name() == null && message == null){
           return
+          
         }
   
         // Get the firebase database value
