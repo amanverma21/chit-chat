@@ -16,6 +16,20 @@ body{
   margin: 0;
   box-sizing: border-box;
 }
+#title{
+  display: inline-block;
+  color: #fff;/*EBEBD3, C5283D*/
+  font-size: 55px;
+  letter-spacing: 2px;
+  user-select: none;
+}
+
+#title:hover{
+
+  font-size:100px;
+  transform:rotateY(50deg);
+  transform:rotateX(30deg);
+  transform:rotateZ(360deg);}
 #title_container{
   width: 100%;
   height: 225px;
@@ -27,6 +41,19 @@ body{
   background-color: #03256c;/*#467599;*/
   border-bottom: 5px solid #fff;
   box-shadow: 0 0 30px -18px #D64045;
+
+}
+#join_input{
+  width: 60%;
+  height: 40px;
+
+  color: #1D3354;
+  font-family: Varela Round;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  background-color: Transparent;
+  border-bottom: 2px dashed #1D3354;
 
 }
 #title_container:hover{
@@ -43,21 +70,8 @@ body{
   /* background-color: #083D77; */
   border-radius: 200px;
 }
-#title{
-  display: inline-block;
-  color: #fff;/*EBEBD3, C5283D*/
-  font-size: 55px;
-  letter-spacing: 2px;
-  user-select: none;
-}
 
-#title:hover{
 
-  font-size:100px;
-  transform:rotateY(50deg);
-  transform:rotateX(30deg);
-  transform:rotateZ(360deg);}
-/* //aman */
 #join_container{
   width: 100%;
   height: 200px;
@@ -84,19 +98,7 @@ body{
 
   float: left;
 }
-#join_input{
-  width: 60%;
-  height: 40px;
 
-  color: #1D3354;
-  font-family: Varela Round;
-  font-size: 15px;
-  font-weight: bold;
-  text-align: center;
-  background-color: Transparent;
-  border-bottom: 2px dashed #1D3354;
-
-}
 #join_input:focus{
   box-shadow: 0 10px 30px -17px #1D3354;
 }
