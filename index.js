@@ -49,10 +49,6 @@ window.onload = function() {
         title_container.append(title_inner_container)
         document.body.append(title_container)
       }
-
-      //for date time
-     
-      // create_join_form() creates the join form
       create_join_form(){
         // YOU MUST HAVE (PARENT = THIS). OR NOT. I'M NOT YOUR BOSS!😂
         var parent = this;
